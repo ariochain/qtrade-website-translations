@@ -1,0 +1,750 @@
+{
+    "Errors": {
+        "Failed to send email!": "Nepodarilo sa odoslať email!",
+        "Unknown error": "Neznáma chyba"
+    },
+    "common": {
+        "JSON": "JSON",
+        "Copy": "Kopíruj",
+        "CSV": "CSV",
+        "Export Data": "Exportuj Dáta",
+        "Download": "Stiahnuť",
+        "Retry": "Opať",
+        "Why am I getting this error?": "Prečo dostávam túto chybu?",
+        "Last Modified": "Naposledy upravené",
+        "Currencies": "Meny",
+        "Currency": "Mena",
+        "Markets": "Markety",
+        "Market": "Market",
+        "Withdraw Fee": "Poplatok za výber",
+        "Minimum Withdraw": "Minimálny výber",
+        "Withdraw": "Vyber",
+        "Withdrawal": "Výber",
+        "No data to display": "Žiadne dáta k zobrazeniu",
+        "Digital Asset Exchange": "Zmenáreň digitálnych aktív",
+        // "original dev coins" means projects/teams that have done some development themselves.
+        // We have a preference for coins that aren't complete clones.
+        "US based digital asset exchange with trading UI and JSON API. We list original development coins.": "Americká zmenáreň digitálnych aktív s obchodným UI a JSON API. Zaraďujeme originálne vyvíjané meny.",
+        "Auth Code": "Autorizačný kód",
+        "2FA Code": "2FA Kód",
+        "Cancel": "Zrušiť",
+        "Submit": "Odoslať",
+        "Dismiss": "Zrušiť",
+        "Confirm": "Potvrdiť",
+        "Enable": "Zapnúť",
+        "Browse...": "Prechádzať...",
+        "Date": "Dátum",
+        "Time": "Čas",
+        "Price": "Cena",
+        "Total": "Spolu",
+        "Amount": "Množstvo",
+        "loginPrompt": "<0>Prihlásiť sa</0> alebo <2>vytvoriť účet</2>",
+        "Balance": "Zostatok",
+        "Balances": "Zostatky",
+        "Bid": "Ponuka",
+        "Ask": "Dopyt",
+        "Last": "Posledné",
+        "Open": "Otvorené",
+        "High": "Vysoko",
+        "Low": "Nízko",
+        "Close": "Zatvoriť",
+        "Max": "Max",
+        "Open Orders": "Otvorené príkazy",
+        "Closed Orders": "Uzatvorené príkazy",
+        "Buy Orders": "Príkazy na nákup",
+        "Sell Orders": "Príkazy na predaj",
+        "Order Type": "Typ príkazu",
+        "Buy Limit": "Limit nákupu",
+        "Sell Limit": "Limit predaja",
+        "Filter options": "Možnosti filtra",
+        "Recent first": "Posledné najskôr",
+        "Oldest first": "Najstaršie najskôr",
+        "Highest Price": "Najvyžšia cena",
+        "Lowest Price": "Najnižšia cena",
+        "Biggest Order": "Najväčší príkaz",
+        "Smallest Order": "Najmenší príkaz",
+        "Clear filters": "Zrušiť filtrovanie",
+        "All": "Všetko",
+        "Load more": "Načítaj viac",
+        "All orders loaded": "Všetky príkazy načítané",
+        "Loading orders": "Načítavam príkazy",
+        "Order ID": "Príkaz ID",
+        "Created": "Vytvorené",
+        // Describes the menu dropdown button on the balances page. Used for screen readers/tooltips
+        "Toggle Dropdown": "Toggle Dropdown",
+        "Deposit": "Vklad",
+        "copied to clipboard!": "skopírované do klipboardu!",
+        "Download Image": "Stiahnuť obrázok",
+        "Data": "Dáta",
+        "Resend": "Odoslať opať",
+        "Resubmit": "Odoslať opať",
+        "Email": "Email",
+        "Verified": "Verifikovaný",
+        "Not Verified": "Neverifikovaný",
+        "Unverified": "Neverifikovaný",
+        "Withdraw limit": "Limit výberu",
+        "now": "teray",
+        // Used for unexpected object types. For example, deposit statuses returned from server
+        // are expected to be 'credited' or 'pending', but if the status doesn't match the 
+        // expected value it is 'unknown'
+        "Unknown": "Neznáme",
+        // Used for unexpected server success responses. Similar to above, but we know that
+        // the action succeeded
+        "Unknown Success Code": "Neznámy úspešný kód",
+        "Captcha Required": "Captcha vyžadovaná",
+        "Captcha must be completed": "Captcha musí byť dokončená",
+        "Two factor authentication is required to use this feature": "Dvojfaktorová autentifikácia (2FA) je vyžadovaná pre použitie tejto funkcie",
+        "Email confirmation sent! Please check your email": "Potvrdenie emailu bolo odoslané! Prosím, skontrolujte Váš email",
+        // Managed withdraw addresses can have a short description
+        // You can see how it is used: https://qtrade.io/settings/manage_addresses
+        "Label": "Názov",
+        "Continue": "Pokračovať",
+        "Pubkey": "Pubkey",
+        "You must verify your email address before using this feature": "Skôr než použijete túto funkciu musíte verifikovať Váš email"
+    },
+    "errorCodes": {
+        "invalid_timestamp": "Neplatný Timestamp",
+        "expired_signature": "Vypršaný podpis",
+        "invalid_signature": "Neplatný podpis",
+        "unknown_user": "Neznámy užívateľ",
+        "unknown_error": "Neznáma chyba"
+    },
+    "404": {
+        "Not Found": "Nenájdené",
+        "Error 404": "Chyba 404",
+        "The page you requested was not found on the server": "Stránka ktorú požadujete nebola na serveri nájdená"
+    },
+    "429": {
+        "Rate limit exceeded": "Limit prekročený",
+        "try again in": "skúste opäť o"
+    },
+    "503": {
+        "Maintenance": "Údržba",
+        "We are currently down for scheduled maintenance": "Momentálne prebieha plánovaná údržba"
+    },
+    "Disconnected": {
+        "Disconnected": "Odpojené",
+        "You seem to be disconnected": "Zdá sa že ste bol odpojený"
+    },
+    "EmailConfirm": {
+        "Confirm your email address": "Potvrďte Vašu emailovú adresu",
+        "Email Verified": "Email verifikovaný",
+        "startVerification": "Začať <1>Level 1</1> verifikáciu"
+    },
+    "Signup": {
+        "Sign Up": "Registrácia",
+        "Password": "Heslo",
+        "Pass Confirm": "Potvrdenie hesla",
+        "ToSAgree": "Súhlasím s <1>Podmienkami služby</1> a <3>Zásadami ochrany osobných údajov</3>"
+    },
+    "ReferralProgram": {
+        "Referral Program": "Referral Program",
+        "The qTrade referral program allows you to receive 10% percent of trade commissions paid by your referrals.": "The qTrade referral program allows you to receive 10% percent of trade commissions paid by your referrals.",
+        "How it works": "How it works",
+        "More details": "More details",
+        "Important Notice": "Important Notice"
+    },
+    "ReferralProgram.howItWorks": {
+        "howItWorks1": "Start by visiting the <1>referrals</1> page. From this page you can copy your referral link and send it to your friends.",
+        "Your friends can visit the referral link and sign up for a qTrade account.": "Your friends can visit the referral link and sign up for a qTrade aaccount.",
+        "They will then complete their account and initiate buy or sell orders.": "They will then complete their account and initiate buy or sell orders.",
+        "howItWorks4": "At the end of the month you will recieve a credit to your account for the 10% of the trading fees your friend paid. You can view past payouts on your <1>referrals</1> page."
+    },
+    "ReferralProgram.moreDetails": {
+        "When someone clicks your link, you will get credit if they sign up any time in the next 90 days from that computer, even if they close the browser and come back later. If a user clicks someone else's referral link before signing up it will use their code": "When someone clicks your link, you will get credit if they sign up any time in the next 90 days from that computer, even if they close the browser and come back later. If a user clicks someone else's referral link before signing up it will use their code",
+        // Referral links add a '?ref=asdf' to the URL. That ref code may be used on any page:
+        // "https://qtrade.io/?ref=asdf" or "https://qtrade.io/signup?ref=asdf" etc
+        "You may link to any page on the website with your referral code and it will work as expected.": "You may link to any page on the website with your referral code and it will work as expected.",
+        "After 1 year you will no longer recieve a payouts for a user referred with your code.": "After 1 year you will no longer recieve a payouts for a user referred with your code.",
+        "There is no limit to the number of people you can refer, although we do reserve the right to adjust or change the referral program rules in the future.": "There is no limit to the number of people you can refer, although we do reserve the right to adjust or change the referral program rules in the future.",
+        "Payments may not go out on the first, but when it does go out the payment period will be included in the payment details.": "Payments may not go out on the first, but when it does go out the payment period will be included in the payment details.",
+        "We check for duplicate or fake accounts and don't pay out referral bonuses on these accounts. Duplicate or shared financials will cause disqualification.": "We check for duplicate or fake accounts and don't pay out referral bonuses on these accounts. Duplicate or shared financials will cause disqualification."
+    },
+    "ReferralProgram.notice": {
+        "Unfortunately we can't guarantee payout on every account you refer due to the limitations mentioned above and risk of fraud, but we make a good faith effort to do so whenever possible.": "Unfortunately we can't guarantee payout on every account you refer due to the limitations mentioned above and risk of fraud, but we make a good faith effort to do so whenever possible.",
+        "In addition, qTrade reserves the right to change the terms of the referral program at any time due to changing market conditions, risk of fraud, or other reasons. By participating in the referral program you acknowledge that receiving payouts is not guaranteed by qTrade": "In addition, qTrade reserves the right to change the terms of the referral program at any time due to changing market conditions, risk of fraud, or other reasons. By participating in the referral program you acknowledge that receiving payouts is not guaranteed by qTrade"
+    },
+    "Fees": {
+        "Fee Schedule": "Fee Schedule",
+        "Market ID": "Market ID",
+        "Pair": "Pair",
+        "Maker Fee": "Maker Fee",
+        "Taker Fee": "Taker Fee"
+    },
+    "Status": {
+        "Site Status": "Site Status",
+        "Status": "Status",
+        "Enabled": "Enabled",
+        "Disabled": "Disabled",
+        "Create": "Create",
+        "Cancel": "Cancel"
+    },
+    "Home": {
+        // Description of the exchange used in HTML meta tags. Shows up on search engine results, discord links, etc
+        // "up and coming" is a colloquial way to say "new and growing"
+        "US based exchange trading up and coming cryptocurrencies": "US based exchange trading up and coming cryptocurrencies",
+        // "original dev coins" means projects/teams that have done some development themselves.
+        // We have a preference for coins that aren't complete clones.
+        "We list original dev coins": "We list original dev coins",
+        "Learn more about the coins we list": "Learn more about the coins we list",
+        "Some coins are changing the way we think about distributed ledger technology": "Some coins are changing the way we think about distributed ledger technology",
+        "Learn more": "Learn more",
+        "Integration Made Easy": "Integration Made Easy"
+    },
+    "Home.VEO": {
+        "Programmable state channels support decentralized betting, markets, and more": "Programmable state channels support decentralized betting, markets, and more",
+        "Futarchy-based oracle technology used for self-governance": "Futarchy-based oracle technology used for self-governance",
+        "Written in Erlang by Zack Hess, a developer of Augur and Aeternity": "Written in Erlang by Zack Hess, a developer of Augur and Aeternity"
+    },
+    "Home.SNOW": {
+        "Novel IO based POW scheme allows low power, ASIC resistant mining": "Novel IO based POW scheme allows low power, ASIC resistant mining",
+        "Ready for quantum computers with \"quantum tough\" cryptography": "Ready for quantum computers with \"quantum tough\" cryptography",
+        "Written in Java by Joseph Gleason, the developer of Satoshi Dice": "Written in Java by Joseph Gleason, the developer of Satoshi Dice"
+    },
+    "Home.BIS": {
+        "First Python blockchain, written mostly by Jan Kučera": "First Python blockchain, written mostly by Jan Kučera",
+        "DApp support and thriving developer community rising from ease of development": "DApp support and thriving developer community rising from ease of development",
+        "Arbitrary structured transaction data allows easy expansion": "Arbitrary structured transaction data allows easy expansion"
+    },
+    "Home.NYZO": {
+        "Original Proof of Diversity consensus mechanism, no PoW or PoS": "Original Proof of Diversity consensus mechanism, no PoW or PoS",
+        "PoD and fast blocks provide very fast transaction finality": "PoD and fast blocks provide very fast transaction finality",
+        "Scalable, can support thousands of transactions/second": "Scalable, can support thousands of transactions/second"
+    },
+    "Home.CRUZ": {
+        "Designed to be conceptually simple and extremely developer-friendly": "Designed to be conceptually simple and extremely developer-friendly",
+        "Developed in Go to attract a wider variety of developer interest": "Developed in Go to attract a wider variety of developer interest",
+        "Web-friendly Peer Protocol, peer communication handled via secure WebSockets": "Web-friendly Peer Protocol, peer communication handled via secure WebSockets"
+    },
+    "Home.Integration": {
+        "submitToken": "Submit your Token for <1>listing</1>",
+        "API": "Get trading data or even add your own trading bot with our <1>JSON API</1>",
+        "improveAPI": "Learn how to <1>improve your Token's API</1> for easier integration with us",
+        "Or just write your own qTrade integration (Coming Soon)": "Or just write your own qTrade integration (Coming Soon)"
+    },
+    "Home.Steps": {
+        "Get started in a few minutes": "Get started in a few minutes",
+        "qTrade supports a variety of the most innovative digital currencies": "qTrade supports a variety of the most innovative digital currencies",
+        "Create your account": "Create your account",
+        "Verify your identity": "Verify your identity",
+        "Start buying and selling": "Start buying and selling",
+        "Get started": "Get started"
+    },
+    "App.ExpiredModal": {
+        "Session timeout": "Session timeout",
+        "Log back in": "Log back in",
+        "Authorization Renew Required": "Authorization renewal required"
+    },
+    "App.Nav": {
+        "Home": "Home",
+        "Order History": "Order History",
+        "Account": "Account",
+        "Verification": "Verification",
+        "Change Password": "Change Password",
+        "API Keys": "API Keys",
+        "Two Factor Auth": "Two Factor Auth",
+        "Account Activity": "Account Activity",
+        "Referrals": "Referrals",
+        "Manage Addresses": "Manage Addresses",
+        "Logout": "Logout"
+    },
+    "App.Footer": {
+        "Company": "Company",
+        "About Us": "About Us",
+        "Terms of Service": "Terms of Service",
+        "Privacy Policy": "Privacy Policy",
+        "AML Policy": "AML Policy",
+        "Info": "Info",
+        "Listing Guidelines": "Listing Guidelines",
+        "Listing Voting": "Listing Voting",
+        "Resources": "Resources",
+        "API Docs": "API Docs",
+        "Bug Bounty": "Bug Bounty",
+        "Contact": "Contact",
+        "Support": "Support"
+    },
+    "Login": {
+        "Login": "Login",
+        "Sign In": "Sign In",
+        "Forgot password?": "Forgot password?",
+        "Successfully logged in!": "Successfully logged in!",
+        "Successfully renewed auth session": "Successfully renewed auth session",
+        "Approval required": "Approval required",
+        "Please check your email to approve your login request": "Please check your email to approve your login request"
+    },
+    "Market": {
+        "Trading is currently disabled on this market": "Trading is currently disabled on this market",
+        "Cancelling orders is currently disabled on this market": "Cancelling orders is currently disabled on this market",
+        "24H Vol": "24H Vol"
+    },
+    "Market.detailsModal": {
+        "Market Details": "Market Details",
+        "24 Hour Overview": "24 Hour Overview",
+        "Change": "Change",
+        "Market Volume": "Market Volume",
+        "Base Volume": "Base Volume",
+        "Spread": "Spread"
+    },
+    "UserOrderbook": {
+        "Remaining Units": "Remaining Units",
+        "Your Recent Orders": "Your Recent Orders"
+    },
+    "MarketOrderbook": {
+        // "Row total" is shown on the market page for Buy orders and Sell orders
+        // It means the total BTC value for the row (Price BTC * Amount Currency)
+        "Row Total": "Row Total",
+        "Sum": "Sum"
+    },
+    "UserBuySell": {
+        "Sell": "Sell",
+        "Buy": "Buy",
+        "Limit Order": "Limit Order"
+    },
+    "OrderForms": {
+        "Amount and Price are required fields": "Amount and Price are required fields",
+        "orderCreated": "Order created ({{filledPerc}}% filled)",
+        "Best Market Ask": "Best Market Ask",
+        "Best Market Bid": "Best Market Bid",
+        "Max Fee": "Max Fee",
+        "If your order executes as a taker this will be the fee. Maker orders are free": "If your order executes as a taker this will be the fee. Maker orders are free",
+        "Place Buy Order": "Place Buy Order",
+        "Place Sell Order": "Place Sell Order",
+        "(est.)": "(est.)"
+    },
+    "PriceSanityModal": {
+        "Confirm Price": "Confirm Price",
+        "The price you've entered is substantially different from market price. Please confirm the following details are correct:": "The price you've entered is substantially different from market price. Please confirm the following details are correct:",
+        "Price entered": "Price entered",
+        "Market price": "Market price"
+    },
+    "MarketRecentTrades": {
+        "Recent Trades": "Recent Trades"
+    },
+    "ResetPassword": {
+        "Reset Password": "Reset Password",
+        "New Password": "New Password",
+        "Password reset email has been sent if there is an account with that email address": "Password reset email has been sent if there is an account with that email address",
+        "Password reset successfully!": "Password reset successfully!"
+    },
+    "TokenRedeem": {
+        // Can be viewed on "https://qtrade.io/token"
+        // This page is used to redeem JWT tokens,
+        // JWT tokens are a part of those long URLs used to confirm email addresses, reset passwords, etc
+        "Token Redeem": "Token Redeem"
+    },
+    "OpenOrders": {
+        // Used as a header for a panel with order metrics/totals
+        // Seen here: https://qtrade.io/open_orders
+        "Order Count": "Order Count",
+        "Cancel Order": "Cancel Order",
+        "Total Units": "Total Units",
+        "Remaining Units Amount": "Remaining Units Amount",
+        "Price Per Unit": "Price Per Unit",
+        "Order cancelled successfully": "Order cancelled successfully"
+    },
+    "OrderHistory": {
+        "Order History": "Order History",
+        "Filled Order Summary": "Filled Order Summary",
+        "Show Unfilled": "Show Unfilled",
+        "Offered": "Offered",
+        "Ordered": "Ordered",
+        "Sold": "Sold",
+        "Bought": "Bought",
+        "Received": "Received",
+        "Spent": "Spent",
+        "Ordered Price": "Ordered Price",
+        "Average Executed Price": "Average Executed Price",
+        "Trades Executed": "Trades Executed",
+        "Close Reason": "Close Reason",
+        "Fee Charged": "Fee Charged"
+    },
+    "Balances": {
+        "verificationWarning": "Your account isn't verified yet! Complete <1>Level 1 verification</1> to increase your withdraw limit",
+        "withdrawLimit": "Withdraw limit: ${{limit}} / day",
+        "Hide Delisted": "Hide Delisted",
+        "Hide 0 Balances": "Hide 0 Balances",
+        "Wallet": "Wallet",
+        "Available balance": "Available balance",
+        // When an order is created that value is held in the order until it is filled or cancelled
+        // So if you have any open orders some of your balance will be 'in orders'
+        // Seen on balances page: https://qtrade.io/balances/BTC
+        "In orders": "In orders",
+        "Escrowed": "Escrowed",
+        "Transactions": "Transactions",
+        "All transactions loaded": "All transactions loaded",
+        "Loading transactions": "Loading transactions",
+        "depositAddressWarning": "<0>Important:</0> Send only {{longName}} to this address! Sending any other currency to this address may result in the loss of your deposit.",
+        "Deposit Address": "Deposit Address",
+        "Address": "Address",
+        "Withdraw submitted! Check your email to approve it": "Withdraw submitted! Check your email to approve it",
+        "Withdraw submitted successfully.": "Withdraw submitted successfully.",
+        "Pending Email Confirmation": "Pending Email Confirmation",
+        "An email has been sent to confirm that you authorized this withdraw": "An email has been sent to confirm that you authorized this withdraw",
+        "Processing Creation": "Processing Creation",
+        "The wallet service is generating the transaction": "The wallet service is generating the transaction",
+        "Processing Signing": "Processing Signing",
+        "The wallet service is signing the transaction": "The wallet service is signing the transaction",
+        "Processing Send": "Processing Send",
+        "The wallet service is sending the signed transaction": "The wallet service is sending the signed transaction",
+        "Sent": "Sent",
+        "The withdraw transaction has been sent, but is not yet mined into multiple blocks": "The withdraw transaction has been sent, but is not yet mined into multiple blocks",
+        "Confirmed": "Confirmed",
+        "The transaction has been mined into multiple blocks and is confirmed on the network": "The transaction has been mined into multiple blocks and is confirmed on the network",
+        "Canceled": "Canceled",
+        "The withdraw has been canceled, and the funds returned to your account balance": "The withdraw has been canceled, and the funds returned to your account balance",
+        "Delayed": "Delayed",
+        "Your withdraw is delayed for an unknown reason. Support has been notified.": "Your withdraw is delayed for an unknown reason. Support has been notified.",
+        "Your withdraw is delayed because we are waiting for change utxos to confirm": "Your withdraw is delayed because we are waiting for change utxos to confirm",
+        "Delayed for Cold Wallet": "Delayed for Cold Wallet",
+        "Your withdraw is delayed because we need to move funds out of cold storage": "Your withdraw is delayed because we need to move funds out of cold storage",
+        "Transaction Orphaned": "Transaction Orphaned",
+        "The withdraw transaction has been orphaned and must be resent. Staff are aware and will take action soon.": "The withdraw transaction has been orphaned and must be resent. Staff are aware and will take action soon.",
+        "An unrecognized status": "An unrecognized status",
+        "Confirming Sweep": "Confirming Sweep",
+        "Your deposit is being swept to our central wallet": "Your deposit is being swept to our central wallet",
+        "Sending Sweep": "Sending Sweep",
+        "Processing Sweep": "Processing Sweep",
+        "Pending Confirmation": "Pending Confirmation",
+        "Waiting for the network to confirm the transaction": "Waiting for the network to confirm the transaction",
+        "Credited": "Credited",
+        "The deposit has been credited to your account": "The deposit has been credited to your account",
+        "Orphaned": "Orphaned",
+        "The deposit transaction has been superceded by a different transaction and will never confirm": "The deposit transaction has been superceded by a different transaction and will never confirm",
+        "Receive Processed": "Receive Processed",
+        "We have processed your incoming deposit": "We have processed your incoming deposit",
+        "Receive Broadcasted": "Receive Broadcasted",
+        "We have submitted information related to your incoming deposit to the network": "We have submitted information related to your incoming deposit to the network",
+        "Sweep Receive Pending": "Sweep Receive Pending",
+        "We are waiting for the network to return information about the sweep": "We are waiting for the network to return information about the sweep",
+        "Sweep Receive Processed": "Sweep Receive Processed",
+        "We have processed the sweep for your incoming deposit": "We have processed the sweep for your incoming deposit",
+        "Sweep Receive Sent": "Sweep Receive Sent",
+        "We have broadcasted the sweep for your incoming deposit": "We have broadcasted the sweep for your incoming deposit",
+        "Currency delisted": "Currency delisted",
+        "Currency to be delisted on": "Currency to be delisted on"
+    },
+    "Currency.Status": {
+        "Status ok, no known issues at this time": "Status ok, no known issues at this time",
+        "Withdraws and deposits for this currency are temporarily disabled due to maintenance or network issues": "Withdraws and deposits for this currency are temporarily disabled due to maintenance or network issues",
+        "This currency is offline, deposits and withdraws are not currently accepted": "This currency is offline, deposits and withdraws are not currently accepted",
+        "Withdraws and deposits for this currency are enabled but may be delayed for this currency due to network issues or maintenance": "Withdraws and deposits for this currency are enabled but may be delayed for this currency due to network issues or maintenance",
+        "This currency is due to be delisted or has been delisted, deposits are no longer accepted, please make withdrawals as soon as possible": "This currency is due to be delisted or has been delisted, deposits are no longer accepted, please make withdrawals as soon as possible"
+    },
+    "DepositModal": {
+        "Please confirm you have copied the data": "Please confirm you have copied the data",
+        "This currency requires data to be sent with your transaction. Failure to include the data field will result in your deposit not being credited to your account!": "This currency requires data to be sent with your transaction. Failure to include the data field will result in your deposit not being credited to your account!",
+        "I understand the data field is necessary": "I understand the data field is necessary",
+        "New address": "New address",
+        "Transaction Data": "Transaction Data",
+        "Please confirm you understand the early access program rules": "Please confirm you understand the early access program rules",
+        "This currency is part of qTrade's Early Access program. Please take a minute to read the program details": "This currency is part of qTrade's Early Access program. Please take a minute to read the program details",
+        "Early Access Program Info": "Early Access Program Info",
+        "Early access is a manual deposit and withdraw program": "Early access is a manual deposit and withdraw program",
+        "EATxTime": "Deposit and Withdraws are processed <1>once per day</1> (around 8PM GMT)",
+        "EAOneTx": "A <1>maximum of one</1> deposit will be processed per day",
+        "Deposit Method": "Deposit Method"
+    },
+    "WithdrawModal": {
+        "Two-Factor Auth Code": "Two-Factor Auth Code",
+        "Withdraws have been disabled for this currency. Please contact support if you believe this is in error.": "Withdraws have been disabled for this currency. Please contact support if you believe this is in error.",
+        "Withdraws have been disabled for your user. Please contact support if you believe this is in error.": "Withdraws have been disabled for your user. Please contact support if you believe this is in error.",
+        "This currency is delisted, please withdraw all your funds by": "This currency is delisted, please withdraw all your funds by",
+        "Withdraw fee": "Withdraw fee",
+        "Withdraw minimum": "Withdraw minimum",
+        "Over Limit": "Over Limit",
+        "What are the withdrawal limits?": "What are the withdrawal limits?",
+        "Withdraw Method": "Withdraw Method"
+    },
+    "DepositRow": {
+        "Deposit ID": "Deposit ID",
+        "Confirms": "Confirms",
+        "Transaction ID": "Transaction ID"
+    },
+    "TransferRow": {
+        "Transfer ID": "Transfer ID",
+        "Sender Email": "Sender Email",
+        "Transfer Code": "Transfer Code"
+    },
+    "WithdrawRow": {
+        "Withdraw ID": "Withdraw ID",
+        "Destination Address": "Destination Address",
+        "Connection Attempts": "Connection Attempts",
+        "Last Failure Reason": "Last Failure Reason"
+    },
+    "ResendApproveEmail": {
+        "Withdraw already approved": "Withdraw already approved"
+    },
+    "TFA": {
+        "Key": "Key",
+        "Install the Google Authenticator or Authy app on your phone and scan the QR code below.Then type the provided authenticator code in below to activate.": "Install the Google Authenticator or Authy app on your phone and scan the QR code below.Then type the provided authenticator code in below to activate.",
+        "Make a backup of the QR code or key before enabling. If you lose access to your phone and do not have a backup you will lose access to your account!": "Make a backup of the QR code or key before enabling. If you lose access to your phone and do not have a backup you will lose access to your account!",
+        "2FA Enroll": "2FA Enroll",
+        "Print a backup": "Print a backup",
+        "Enroll": "Enroll",
+        "Two Factor Auth": "Two Factor Auth",
+        "What is 2FA?": "What is 2FA?",
+        "recommend2FA": "Enabling two factor authentication on your account is <b>strongly recommended</b>, as it protects your funds from being stolen by many forms of keyloggers and trojans. Once enabled, your authenticator code will be required for Withdraws, Login, Password Changes, and other privileged account actions.",
+        "Confirm 2FA Disable": "Confirm 2FA Disable",
+        "Disable 2FA": "Disable 2FA"
+    },
+    "APIKeys": {
+        "Revoke key": "Revoke key",
+        "New API Key": "New API Key",
+        "This key will not be displayed again! Store it in a safe place.": "This key will not be displayed again! Store it in a safe place.",
+        "Key ID": "Key ID",
+        "Secret Key": "Secret Key",
+        "Confirm API key removal": "Confirm API key removal",
+        "Applications that use this key will no longer work. Are you sure you want to this API key?": "Applications that use this key will no longer work. Are you sure you want to this API key?",
+        "API Keys": "API Keys",
+        "+ New API Key": "+ New API Key",
+        "suggestKeyCreate": "You have no API keys yet. Would you like to <1>create one</1>?",
+        "Create new API Key": "Create new API Key",
+        "Description": "Description",
+        "Permissions": "Permissions",
+        "Trade - Placing & canceling orders": "Trade - Placing & canceling orders",
+        "Deposit - Get deposit addresses": "Deposit - Get deposit addresses",
+        "Info - Get balances, trades, etc": "Info - Get balances, trades, etc",
+        "Withdraw - Allows withdraw of funds": "Withdraw - Allows withdraw of funds",
+        "Issue key": "Issue key"
+    },
+    "Change Password": {
+        "Change Password": "Change Password",
+        "Old Password": "Old Password",
+        "New Password": "New Password",
+        "Confirm Password": "Confirm Password"
+    },
+    "Account": {
+        "User Details": "User Details",
+        "Email sent. Check your email to finish verifying.": "Email sent. Check your email to finish verifying.",
+        "This action is irreversable. Are you sure you want to delete this email address?": "This action is irreversable. Are you sure you want to delete this email address?",
+        "Email deleted": "Email deleted",
+        "Failed to delete email!": "Failed to delete email!",
+        "Withdraws and other security related information will be sent to your primary email. Please make sure this email address is secure": "Withdraws and other security related information will be sent to your primary email. Please make sure this email address is secure",
+        "Confirmation email sent. Please check your email": "Confirmation email sent. Please check your email",
+        "Failed to update email!": "Failed to update email!"
+    },
+    "Referrals": {
+        "Your Referral Info": "Your Referral Info",
+        "Your Referral Link": "Your Referral Link",
+        "No payouts found": "No payouts found",
+        "Referral Payout": "Referral Payout",
+        "Payout ID": "Payout ID",
+        "Total referrals": "Total referrals"
+    },
+    "Verification": {
+        "Verification Status": "Verification Status",
+        "Email Verification": "Email Verification",
+        "Unconfirmed Email": "Unconfirmed Email",
+        "Email Confirmed": "Email Confirmed",
+        "Successfully sent email confirmation!": "Successfully sent email confirmation!",
+        "Verification Level": "Verification Level",
+        "Verify": "Verify",
+        "Level": "Level",
+        "Documents Required": "Documents Required",
+        "Pending Review": "Pending Review",
+        "Face Photo": "Face Photo",
+        "Government Issued Photo ID": "Government Issued Photo ID",
+        "Approved": "Approved",
+        "Rejected": "Rejected",
+        "Pending": "Pending",
+        "Upload": "Upload",
+        "Reject Code": "Reject Code",
+        "Reject Comment": "Reject Comment",
+        "Photo ID": "Photo ID",
+        "Preview": "Preview",
+        "Negative example selfie. No blurry pictures": "Negative example selfie. No blurry pictures",
+        "Negative example selfie. No facial coverings": "Negative example selfie. No facial coverings",
+        "Governement ID example": "Governement ID example",
+        "Negative ID example. Don't obscure ID": "Negative ID example. Don't obscure ID",
+        "Upload a": "Upload a",
+        "Upload a valid (non-expired) government issued photo ID. For faster verification we recommend US customers upload a drivers licence, and for non-US customers it's best to use your international passport.": "Upload a valid (non-expired) government issued photo ID. For faster verification we recommend US customers upload a drivers licence, and for non-US customers it's best to use your international passport.",
+        "If you are uploading your passport, the picture of it needs to include the entire passport or it will be rejected.": "If you are uploading your passport, the picture of it needs to include the entire passport or it will be rejected.",
+        "If any part of the ID or passport is cut off it is likely to be rejected": "If any part of the ID or passport is cut off it is likely to be rejected",
+        "Date of Birth on your ID must have a full 4 digit year": "Date of Birth on your ID must have a full 4 digit year",
+        "Upload an identity verification photo (selfie). It must include your face with no obscuring headwear (no sunglasses or hats). Face front with your face fully visible, while holding a piece of paper with the date, full name, and the word \"qTrade\".": "Upload an identity verification photo (selfie). It must include your face with no obscuring headwear (no sunglasses or hats). Face front with your face fully visible, while holding a piece of paper with the date, full name, and the word \"qTrade\".",
+        "Add new files": "Add new files",
+        "uploadLimit": "<b>Note:</b> Maximum filesize of 5MB",
+        "Confirm your information": "Confirm your information",
+        "Please confirm your email first": "Please confirm your email first",
+        "First Name": "First Name",
+        "Last Name": "Last Name",
+        "Date of Birth": "Date of Birth",
+        "Country": "Country",
+        "State": "State",
+        "City": "City",
+        "Address": "Address",
+        "Select Country": "Select Country",
+        "Submitted verification level 1 info!": "Submitted verification level 1 info!"
+    },
+    "AboutUs": {
+        "About Us": "About Us",
+        "summary": "qTrade LLC is a digital asset exchange launched in April 2018 and based in the United States, registered in <1>Kansas</1>. The qTrade platform provides split-second trade execution, industry-leading security practices, and a robust, scalable architecture. Our mission is to help drive blockchain technology forward by reducing the barriers faced by innovative new and emerging technology.",
+        "Why we're different": "Why we're different",
+        "Security focused": "Security focused",
+        "qTrade employs the most reliable, effective security technologies available. We build our own transactions to allow easy off-site signing, ensure idempotency, and leverage cold wallet storage for additional safety. qTrade also supports two-factor authentication and provides a host of additional security features to provide multiple layers of protection. At qTrade, security will always be a top priority in every decision we make.": "qTrade employs the most reliable, effective security technologies available. We build our own transactions to allow easy off-site signing, ensure idempotency, and leverage cold wallet storage for additional safety. qTrade also supports two-factor authentication and provides a host of additional security features to provide multiple layers of protection. At qTrade, security will always be a top priority in every decision we make.",
+        "Trading engine built from scratch": "Trading engine built from scratch",
+        "Our custom trading engine was designed to be scaled up and stress tested to ensure that orders are executed rapidly. We also support third-party trading platforms and algorithmic trading via our API": "Our custom trading engine was designed to be scaled up and stress tested to ensure that orders are executed rapidly. We also support third-party trading platforms and algorithmic trading via our API",
+        "Fast and cheap deposits and withdrawals": "Fast and cheap deposits and withdrawals",
+        "Our transaction monitoring and creation platform allows us to provide users some of the fastest transactions available today. Additionally, qTrade strives to be a market leader with industry low withdrawal fees.": "Our transaction monitoring and creation platform allows us to provide users some of the fastest transactions available today. Additionally, qTrade strives to be a market leader with industry low withdrawal fees.",
+        "Trading options": "Trading options",
+        "qTrade is committed to offering a wide choice of assets for trading, and as part of our mission to help support emerging technology we offer many new and innovative cryptocurrencies in addition to more popular ones. We seek to provide our users with an ever-growing selection of blockchain technologies and digital tokens.": "qTrade is committed to offering a wide choice of assets for trading, and as part of our mission to help support emerging technology we offer many new and innovative cryptocurrencies in addition to more popular ones. We seek to provide our users with an ever-growing selection of blockchain technologies and digital tokens.",
+        "Commitment to compliance": "Commitment to compliance",
+        "qTrade is committed to complying with all current U.S. regulations that help prevent, detect and remediate unlawful behavior by customers and virtual currency developers when using the qTrade trading platform or any of the company’s other services.": "qTrade is committed to complying with all current U.S. regulations that help prevent, detect and remediate unlawful behavior by customers and virtual currency developers when using the qTrade trading platform or any of the company’s other services.",
+        "Our team": "Our team",
+        "team": "The qTrade team has a strong technical background and is experienced building platforms for blockchain and cryptocurrencies. In 2014 we wrote a <1>profit switching mining pool</1> from scratch and later expanded it to perform automatic currency conversion and arbitrage for our miners.",
+        "Responsive support is one of our goals and our team is available 7 days a week. At the moment we do not provide support in languages other than English, so if you are able please contact us in English.": "Responsive support is one of our goals and our team is available 7 days a week. At the moment we do not provide support in languages other than English, so if you are able please contact us in English."
+    },
+    "AML": {
+        "AML/KYC Policy": "AML/KYC Policy"
+    },
+    "ListingGuidelines": {
+        "Listing Guidelines": "Listing Guidelines"
+    },
+    "Listings": {
+        "Listings": "Listings"
+    },
+    "Privacy": {
+        "Privacy Policy": "Privacy Policy"
+    },
+    "Terms": {
+        "Terms of Service": "Terms of Service"
+    },
+    "AccountActivity": {
+        "Account Login": "Account Login",
+        "Password Changed": "Password Changed",
+        "Password Reset Requested": "Password Reset Requested",
+        "Withdraw Requested": "Withdraw Requested",
+        "Withdraw Started": "Withdraw Started",
+        "Details": "Details",
+        "User Agent": "User Agent",
+        "IP": "IP",
+        "2FA Enabled": "2FA Enabled",
+        "2FA Disabled": "2FA Disabled",
+        "Withdraw Address Requested": "Withdraw Address Requested",
+        "Withdraw Address Approved": "Withdraw Address Approved",
+        "Unknown Type": "Unknown Type"
+    },
+    "ManageAddresses": {
+        "Add Approved Withdraw Address": "Add Approved Withdraw Address",
+        "Select Currency": "Select Currency",
+        "Revoke Approved Withdraw Address": "Revoke Approved Withdraw Address",
+        "Applications that use this address will no longer work. Are you sure you want to revoke this approved address?": "Applications that use this address will no longer work. Are you sure you want to revoke this approved address?",
+        "Address removed successfully": "Address removed successfully",
+        "Approved withdraw addresses": "Approved withdraw addresses",
+        "Revoke Address": "Revoke Address"
+    },
+    "BackendErrors": {
+        "You haven't met the withdraw minimum of {{withdraw_minimum}}": "You haven't met the withdraw minimum of <1>{{withdraw_minimum}}</1>",
+        "You can vote again in {{next_vote_date}}": "You can vote again in <1>{{next_vote_date}}</1>",
+        "Trade amount is below minimum. Total value must be greater than {{minimum_value}} {{currency_code}}.": "Trade amount is below minimum. Total value must be greater than <1>{{minimum_value}}</1> <3>{{currency_code}}</3>.",
+        "{{field_name}} is a required field": "<1>{{field_name}}</1> is a required field",
+        "{{field_name}} length must be greater than {{length}}": "<1>{{field_name}}</1> length must be greater than <3>{{length}}</3>",
+        "{{field_name}} length must be less than {{length}}": "<1>{{field_name}}</1> length must be less than <3>{{length}}</3>",
+        "Validator '{{validator_name}}' failed on attribute '{{field_name}}'": "Validator '<1>{{validator_name}}</1>' failed on attribute '<3>{{field_name}}</3>'",
+        "Invalid password provided": "Invalid password provided",
+        "The two factor code provided is not valid": "The two factor code provided is not valid",
+        "Two factor authentication is already setup": "Two factor authentication is already setup",
+        "Failed to generate new two factor key for unknown reason": "Failed to generate new two factor key for unknown reason",
+        "Your token hasn't been approved for login": "Your token hasn't been approved for login",
+        "You must fill out the captcha": "You must fill out the captcha",
+        "Unknown database exception": "Unknown database exception",
+        "Requested market does not exist": "Requested market does not exist",
+        "Requested currency code does not exist": "Requested currency code does not exist",
+        "This currency has incomplete internal configuration": "This currency has incomplete internal configuration",
+        "You don't have permission to do that": "You don't have permission to do that",
+        "Invalid email or password provided": "Invalid email or password provided",
+        "Login is currently disabled on your account": "Login is currently disabled on your account",
+        "Your account is locked, and login is not currently possible": "Your account is locked, and login is not currently possible",
+        "This user cannot login": "This user cannot login",
+        "Failed to send login approval email": "Failed to send login approval email",
+        "Signups are temporarily disabled. Please see Discord or Twitter for details.": "Signups are temporarily disabled. Please see Discord or Twitter for details.",
+        "Unable to hash password for unknown reason": "Unable to hash password for unknown reason",
+        "Email address already in use": "Email address already in use",
+        "Withdraw ID provided is of invalid format": "Withdraw ID provided is of invalid format",
+        "No matching withdraws exist": "No matching withdraws exist",
+        "Token signature is not valid": "Token signature is not valid",
+        "Token has expired, please resend": "Token has expired, please resend",
+        "Malformed token": "Malformed token",
+        "Authorization token signature is not valid or expired": "Authorization token signature is not valid or expired",
+        "Token no longer exists": "Token no longer exists",
+        "Token has been used, or a newer token replaced this one. Only the last token sent to your email is valid.": "Token has been used, or a newer token replaced this one. Only the last token sent to your email is valid.",
+        "Failed to deserialize token meta": "Failed to deserialize token meta",
+        "The withdraw couldn't be found for updating": "The withdraw couldn't be found for updating",
+        "You must include the 'password' attribute": "You must include the 'password' attribute",
+        "The currency you requested to send has no configured dev relay": "The currency you requested to send has no configured dev relay",
+        "No currency matching that code": "No currency matching that code",
+        "Timestamp provided is of invalid format": "Timestamp provided is of invalid format",
+        "Invalid code provided, make sure you copied the url correctly": "Invalid code provided, make sure you copied the url correctly",
+        "Expired signature, please resend": "Expired signature, please resend",
+        "user_id doesn't exist": "user_id doesn't exist",
+        "New addresses can be issued once every 24 hours": "New addresses can be issued once every 24 hours",
+        "Failed to lookup existing address": "Failed to lookup existing address",
+        "Address pool empty, try later": "Address pool empty, try later",
+        "Too great of precision": "Too great of precision",
+        "Withdraws are currently disabled for this currency": "Withdraws are currently disabled for this currency",
+        "Movement of these funds has been disabled": "Movement of these funds has been disabled",
+        "Withdraws are currently disabled on your account": "Withdraws are currently disabled on your account",
+        "Your withdraw limit is not high enough for that action": "Your withdraw limit is not high enough for that action",
+        "You can't withdraw more than your balance": "You can't withdraw more than your balance",
+        "KeyId you requested wasn't found": "KeyId you requested wasn't found",
+        "Doctype speicified is not permitted": "Doctype speicified is not permitted",
+        "You must be at least 18 years of age": "You must be at least 18 years of age",
+        "Your email address must be verified first!": "Your email address must be verified first!",
+        "You cannot create a key for that realm": "You cannot create a key for that realm",
+        "That withdraw is not in our database": "That withdraw is not in our database",
+        "Trading is currently disabled on your account": "Trading is currently disabled on your account",
+        "That order no longer exists": "That order no longer exists",
+        "Trade cancelation is currently disabled on this market": "Trade cancelation is currently disabled on this market",
+        "Your email address is already verified": "Your email address is already verified",
+        "Voting for this round is over": "Voting for this round is over",
+        "Ticker must be all uppercase characters": "Ticker must be all uppercase characters",
+        "Ticker already in use": "Ticker already in use",
+        "The specified email is not present for your account": "The specified email is not present for your account",
+        "Invalid email or user id provided": "Invalid email or user id provided",
+        "Primary email cannot be removed": "Primary email cannot be removed",
+        "Malformed authorization header (did you miss 'HMAC-SHA256' or 'Bearer' prefix?)": "Malformed authorization header (did you miss 'HMAC-SHA256' or 'Bearer' prefix?)",
+        "Authorization token is expired": "Authorization token is expired",
+        "Malformed token format": "Malformed token format",
+        "Authorization token is invalid": "Authorization token is invalid",
+        "Session token has been invalidated": "Session token has been invalidated",
+        "Malformed HMAC format": "Malformed HMAC format",
+        "Invalid API key ID format": "Invalid API key ID format",
+        "Invalid API key": "Invalid API key",
+        "Your account is locked, this action is not possible": "Your account is locked, this action is not possible",
+        "Authenitcation information invalid format in database": "Authenitcation information invalid format in database",
+        "Authenitcation information invalid format": "Authenitcation information invalid format",
+        "Expired HMAC signature (timestamp too old)": "Expired HMAC signature (timestamp too old)",
+        "Invalid HMAC signature": "Invalid HMAC signature",
+        "Malformed authorization header (invalid auth type)": "Malformed authorization header (invalid auth type)",
+        "Internal only API": "Internal only API",
+        "You have exceeded the windowed rate limit. Please see docs.": "You have exceeded the windowed rate limit. Please see docs.",
+        "Failed to read HTTP body": "Failed to read HTTP body",
+        "JSON payload format doesn't match expectation": "JSON payload format doesn't match expectation",
+        "An unexpected validation error has occurred": "An unexpected validation error has occurred",
+        "Unkown currency type": "Unkown currency type",
+        "Data segment must not exceed 32 characters": "Data segment must not exceed 32 characters",
+        "Address must be hex": "Address must be hex",
+        "Address must be 64 hex characters": "Address must be 64 hex characters",
+        "Address must be 56 hex characters": "Address must be 56 hex characters",
+        "Address must be 60 hex characters": "Address must be 60 hex characters",
+        "Address must be a valid http address": "Address must be a valid http address",
+        "Openfield must not exceed 100 characters": "Openfield must not exceed 100 characters",
+        "Invalid address length": "Invalid address length",
+        "SNOW address invalid": "SNOW address invalid",
+        "Address must be base32": "Address must be base32",
+        "Address must be base64": "Address must be base64",
+        "SNOW Checksum mismatch": "SNOW Checksum mismatch",
+        "Address must be exactly 64 bytes long": "Address must be exactly 64 bytes long",
+        "Address must be exactly 32 bytes long": "Address must be exactly 32 bytes long",
+        "Address is too short": "Address is too short",
+        "Checksum does not validate": "Checksum does not validate",
+        "Network could not be parsed from address": "Network could not be parsed from address",
+        "Integrated address is required for this currency": "Integrated address is required for this currency",
+        "Invalid extra data in address": "Invalid extra data in address",
+        "Invalid payment ID in address": "Invalid payment ID in address",
+        "Invalid network prefix": "Invalid network prefix",
+        "Invalid coin configuration": "Invalid coin configuration",
+        "Invalid base58 check format, make sure you copied it exactly": "Invalid base58 check format, make sure you copied it exactly",
+        "Invalid address type. Is it for a different currency?": "Invalid address type. Is it for a different currency?"
+    }
+}
